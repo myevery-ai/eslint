@@ -1,0 +1,46 @@
+{
+  "name": "@myevery/eslint",
+  "version": "0.0.0",
+  "description": "myEvery UI ESLint config",
+  "keywords": [
+    "eslint",
+    "config"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "base.js",
+    "client.js",
+    "react.js",
+    "server.js",
+    "prettier.js",
+    "a11y.js",
+    "constants.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/myevery-ai/eslint"
+  },
+  "bugs": {
+    "url": "https://github.com/myevery-ai/eslint/issues"
+  },
+  "homepage": "https://github.com/myevery-ai/eslint#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/eslint-parser": "^7.22.5",
+    "@babel/preset-react": "^7.22.5",
+    "@typescript-eslint/eslint-plugin": "^5.60.1",
+    "@typescript-eslint/parser": "^5.60.1",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-security": "^1.7.1",
+    "eslint-prettier": "^0.0.0-empty"
+  }
+  
+}
